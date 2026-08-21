@@ -4,6 +4,14 @@ Public download mirror for [heca](https://heca.sh) release artifacts. Builds run
 in the private `getheca/heca` repository; release CI uploads the resulting
 assets here so they can be downloaded without authentication.
 
+## macOS desktop app
+
+Download the latest macOS (Apple Silicon) desktop app:
+
+```text
+https://releases.heca.sh/heca-latest-macos-aarch64.dmg
+```
+
 ## Headless CLI
 
 Each release ships the headless CLI bundle for Linux (x86_64, aarch64) and
@@ -40,4 +48,9 @@ heca daemon start
 
 This repository intentionally contains no source code. Releases and their
 assets are the product; other heca artifact types may be published here in
-the future. Issues and source live in the main heca repositories.
+the future. Source lives in the main heca repositories.
+
+## Reporting issues
+
+Found a bug or have a feature request? File it at
+[getheca/heca-issues](https://github.com/getheca/heca-issues).
