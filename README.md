@@ -4,12 +4,20 @@ Public download mirror for [heca](https://heca.sh) release artifacts. Builds run
 in the private `getheca/heca` repository; release CI uploads the resulting
 assets here so they can be downloaded without authentication.
 
-## macOS desktop app
+## Desktop app
 
-Download the latest macOS (Apple Silicon) desktop app:
+Download the latest desktop app:
+
+macOS (Apple Silicon):
 
 ```text
 https://releases.heca.sh/heca-latest-macos-aarch64.dmg
+```
+
+Linux (x86_64):
+
+```text
+https://releases.heca.sh/heca-latest-linux-x86_64.AppImage
 ```
 
 ## Headless CLI
