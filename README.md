@@ -4,6 +4,11 @@ Public download mirror for [heca](https://heca.sh) release artifacts. Builds run
 in the private `getheca/heca` repository; release CI uploads the resulting
 assets here so they can be downloaded without authentication.
 
+## Web app
+
+Use heca directly in the browser, no install needed:
+[app.heca.sh](https://app.heca.sh)
+
 ## Desktop app
 
 Download the latest desktop app:
