@@ -9,6 +9,8 @@ assets here so they can be downloaded without authentication.
 Use heca directly in the browser, no install needed:
 [app.heca.sh](https://app.heca.sh)
 
+The web app accesses your remote hosts through NyxID login only.
+
 ## Desktop app
 
 Download the latest desktop app:
