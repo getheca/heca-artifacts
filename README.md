@@ -35,6 +35,10 @@ https://releases.heca.sh/heca-latest-linux-x86_64.AppImage
 ## Headless CLI
 
 For advanced users: run heca without a GUI, for example on a remote server.
+Note that a headless host has no interface of its own — you still control it
+from a GUI, either the [web app](#web-app) or a [desktop app](#desktop-app)
+on another machine.
+
 Each release ships the headless CLI bundle for Linux (x86_64, aarch64) and
 macOS (arm64, x86_64): the `heca` command-line client plus its sibling
 `heca-daemon` and `heca-mcp-server` binaries, with a sha256 checksum manifest.
