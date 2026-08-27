@@ -4,16 +4,21 @@ Public download mirror for [heca](https://heca.sh) release artifacts. Builds run
 in the private `getheca/heca` repository; release CI uploads the resulting
 assets here so they can be downloaded without authentication.
 
-## Web app
+## Getting started
 
-Use heca directly in the browser, no install needed:
-[app.heca.sh](https://app.heca.sh)
+To use heca, first install it on the machine where your work lives. Most
+users should install the [desktop app](#desktop-app); advanced users who
+want to run heca on a server or without a GUI can set up the
+[headless CLI](#headless-cli) instead.
 
-The web app accesses your remote hosts through NyxID login only.
+Once a machine is running heca (as either the desktop app or the headless
+CLI), it becomes a heca host that you can also control remotely from the
+[web app](#web-app).
 
 ## Desktop app
 
-Download the latest desktop app:
+The recommended way to run heca on your own machine. Download the latest
+desktop app:
 
 macOS (Apple Silicon):
 
@@ -29,6 +34,7 @@ https://releases.heca.sh/heca-latest-linux-x86_64.AppImage
 
 ## Headless CLI
 
+For advanced users: run heca without a GUI, for example on a remote server.
 Each release ships the headless CLI bundle for Linux (x86_64, aarch64) and
 macOS (arm64, x86_64): the `heca` command-line client plus its sibling
 `heca-daemon` and `heca-mcp-server` binaries, with a sha256 checksum manifest.
@@ -58,6 +64,13 @@ After installing, sign in to NyxID and start the daemon:
 heca login
 heca daemon start
 ```
+
+## Web app
+
+[app.heca.sh](https://app.heca.sh) lets you remotely control your heca hosts
+from the browser, signed in with NyxID. It is not a standalone way to run
+heca: you need at least one machine already running the desktop app or the
+headless CLI before the web app can do anything.
 
 ## Repository contents
 
